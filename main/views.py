@@ -4,7 +4,6 @@ from main.models import News
 from django.http import HttpResponse
 from django.core import serializers
 
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
