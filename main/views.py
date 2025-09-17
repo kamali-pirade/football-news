@@ -26,7 +26,7 @@ def show_main(request):
     
     context = {
         'npm' : '2406356643',
-        'name': 'Lessyarta Kamali Sopamena Pirade',
+        'name': request.user.username,
         'class': 'PBP C',
         'news_list': news_list,
         'last_login': request.COOKIES.get('last_login', 'Never')
